@@ -234,7 +234,7 @@ if (empty($_POST)) {
                             ?>
                         </td>
                     </tr>
-
+/*
                     <tr>
                         <td>
                             Uploads Directory is writeable?
@@ -258,7 +258,8 @@ if (empty($_POST)) {
                             ?>
                         </td>
                     </tr>
-
+*/
+                    
                 </table>
 
                 <center>
