@@ -239,11 +239,11 @@ if (empty($_POST)) {
                         <td>
                             Uploads Directory is writeable?
                             <?php
-                            $upload_path = realpath(__DIR__ . '/../uploads');
-                            $upload_b_logo = realpath(__DIR__ . '/../uploads/business_logos');
-                            $upload_b_doc = realpath(__DIR__ . '/../uploads/documents');
-                            $upload_b_img = realpath(__DIR__ . '/../uploads/img');
-                            $upload_i_logo = realpath(__DIR__ . '/../uploads/invoice_logos');
+                            $upload_path = realpath(__DIR__ . '/../../uploads');
+                            $upload_b_logo = realpath(__DIR__ . '/../../uploads/business_logos');
+                            $upload_b_doc = realpath(__DIR__ . '/../../uploads/documents');
+                            $upload_b_img = realpath(__DIR__ . '/../../uploads/img');
+                            $upload_i_logo = realpath(__DIR__ . '/../../uploads/invoice_logos');
                             ?>
                         </td>
                         <td>
